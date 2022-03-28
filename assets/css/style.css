@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #a3e9cc;
+    width: 100%;
+}
+
+
+header {
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    background-color: #2e25b188;
+    color: #ffffff;
+    height: fit-content;
+    width: 100%;
+}
+
+
+header nav {
+    padding-top: 10px;
+    margin-right: 1.25rem;
+    float: right;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 1.5rem;
+    max-height: 3rem;
+    max-width:75%;
+}
+
+nav a {
+    display: block;
+    width: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline;
+    margin-left: 1.25rem;
+    height: auto;
+    list-style-type: none;
+}
+
+.bio {
+
+}
+
+img {
+
+
+}
+
+.about {
+
+
+}
+
