@@ -1,57 +1,77 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     padding: 0;
     margin: 0;
 }
 
 
 body {
-    background-color: #a3e9cc;
+    background-image: linear-gradient(#a3e9cc,#2e25b188);
     width: 100%;
 }
-
+/*#a3e9cc,#2e25b188*/
 
 header {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
-    background-color: #2e25b188;
-    color: #ffffff;
+    background-color: #2e25b1;
+    color: #a30707;
     height: fit-content;
     width: 100%;
+    position: relative;
+    display: flex;
+}
+
+header h1 {
+    padding: 1rem 2rem;
+    position: relative;
+    float: left;
+    width: 30%;
 }
 
 
 header nav {
-    padding-top: 10px;
-    margin-right: 1.25rem;
+    padding: 8px 16px;
     float: right;
-    font-family: 'Helvetica', 'Arial', 'sans-serif';
-    font-size: 1.5rem;
-    max-height: 3rem;
-    max-width:75%;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
 }
 
 nav a {
-    display: block;
-    width: 60px;
     color: #ffffff;
     text-decoration: none;
-    display: inline;
-    margin-left: 1.25rem;
-    height: auto;
     list-style-type: none;
+    font-size: 1.5rem;
+    vertical-align:middle;
+    padding-right: 2rem;
+}
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+div {
+    background-color: #093f6e;
+    width:80%;
+    box-sizing: border-box;
 }
 
 .bio {
-
+    
 }
 
-img {
-
-
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+    width: 300px; 
 }
 
 .about {
-
-
+    
 }
 
