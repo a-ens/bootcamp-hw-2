@@ -67,7 +67,8 @@ section {
 }
 
 figure {
-    width: fit-content;
+    flex-direction: column;
+    align-items: center;
 }
 
 #profpic {
@@ -79,6 +80,10 @@ figure {
 }
 
 figcaption {
+    text-align: center;
+}
+
+figure a {
     text-align: center;
 }
 
@@ -107,37 +112,40 @@ h2 {
 
 #work {
     
-    
+    justify-content: space-around;
 }
 
 #work-figs {
-display: flex;
-flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .work-sample {
-    height: 18rem;
-    width: 18rem;
+    height: 80%;
+    width: 80%;
     border-radius: 2rem;
     margin: auto;
     flex-grow: 8;
 }
 
+.work-pic-wide {
+    width: 80%;
+    justify-content: space-around;
+}
+
 .work-pic {
-    max-height: 400px;
+    width: 30%;
+    justify-content: space-around;
 }
 
 footer {
     width: 100%;
     display: flex;
-    height: fit-content;
+    height: 10%;
     background-color: #4325b1;
-    flex-basis: space-between;
-}
-
-footer div {
-    display: flex;
-    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 footer h2 {
