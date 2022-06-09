@@ -1,7 +1,9 @@
-This is my Portfolio website
+# Andrew Ensor's Portfolio
 
-Hopefully, navigating it should be fairly self-explanatory, considering its low level of functionality.
+This website exists to demonstrate my work, provide contact information, and introduce me as a coder and potential hire. It is aimed at potential employers, or anyone curious about my work.
 
-This was a fun but challenging project to complete. I hope anyone who sees it enjoys the aesthetic. 
+## Creation and Design tools
+The website is built fairly simply using basic html and css
 
--Andrew
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
